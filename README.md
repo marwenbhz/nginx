@@ -8,6 +8,6 @@ Nginx: This is a docker image for easy nginx load balancing applications.
 	docker build -t nginx .
 
 4- Run a docker container
-	docker run -d -p 8080:80 nginx-load-balancer host_1 etc ... 
+	docker run -d -p 8080:80 nginx host_1 etc ... 
     
 Notice: You should specify at least one host, and also all hosts should be reachable. 
