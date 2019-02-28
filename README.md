@@ -5,7 +5,7 @@ Nginx: This is a docker image for easy nginx load balancing applications.
 2- Navigate to it.
 
 3- Build the image: Start building the image using the command:
-	docker build -t nginx-load-balancer .
+	docker build -t nginx .
 
 4- Run a docker container
 	docker run -d -p 8080:80 nginx-load-balancer host_1 etc ... 
